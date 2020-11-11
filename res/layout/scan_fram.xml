@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mmtitle_bg_alpha" >
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:drawable="@drawable/mm_title_back_normal"
+        android:text="返回"
+        android:textColor="@android:color/white" />
+     <Button
+        android:id="@+id/capture"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:drawable="@drawable/mm_title_back_normal"
+        android:text="拍照"
+        android:textColor="@android:color/white" />
+
+     <ToggleButton
+         android:id="@+id/flash_open"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:text="闪光灯" />
+     
+     
+
+</RelativeLayout>

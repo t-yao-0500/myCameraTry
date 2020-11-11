@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="扫描" />
+
+    <TextView
+        android:id="@+id/result02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/result01"
+        android:gravity="center"
+        android:text="Color Value" />
+
+    <TextView
+        android:id="@+id/result01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Pixel value" />
+    
+        <TextView
+        android:id="@+id/result04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/result03"
+        android:gravity="center"
+        android:text="Color Value" />
+
+    <TextView
+        android:id="@+id/result03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+		android:layout_below="@+id/result02"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Pixel value" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/button01"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/button"
+        android:text="定标(白)" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button"
+        android:layout_marginBottom="39dp"
+        android:layout_marginRight="23dp"
+        android:layout_toLeftOf="@+id/button"
+        android:text="定标(黑)" />
+
+    <TextView
+        android:id="@+id/textView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView04"
+        android:layout_alignBottom="@+id/textView04"
+        android:layout_alignLeft="@+id/button01"
+        android:text="定标值(黑)" />
+
+    <TextView
+        android:id="@+id/textView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button02"
+        android:layout_below="@+id/button02"
+        android:text="定标值(白)" />
+
+    <TextView
+        android:id="@+id/textView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView01"
+        android:layout_centerHorizontal="true"
+        android:text="Numbers" />
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Camera Able" />
+
+    <Button
+        android:id="@+id/button03"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button02"
+        android:layout_centerHorizontal="true"
+        android:text="重置" />
+
+    <Button
+        android:id="@+id/button04"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignLeft="@+id/textView04"
+        android:text="颜色保存" />
+
+</RelativeLayout>
